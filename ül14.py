@@ -1,3 +1,7 @@
 filename = str(input("Faili nimi: "))
-if '.ext' in filename:
-    print('.ext')
+
+a = filename.split('.')
+
+print(a)
+
+print(a[-1])
